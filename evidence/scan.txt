@@ -1,0 +1,1 @@
+W 10859f600 tag=1736 tamic=1 frame.y=0 h=840 cache=(0 0; 440 956) super=104de5800 win=1 cfg show=0 transl=0 SHORT

@@ -1,0 +1,9 @@
+(lldb) po [(UIView *)0x10859f600 superview]
+<RNSScreenView: 0x104de5800; frame = (0 0; 440 956); tag = 1740; layer = <CALayer: 0x108eff720>>
+(lldb) po (id)0x10859f600
+<RNSScreenContentWrapper: 0x10859f600; frame = (0 0; 440 840); tag = 1736; backgroundColor = UIExtendedSRGBColorSpace 1 1 1 1; layer = <CALayer: 0x108eff570>>
+(lldb) po [(UIView *)0x10859f600 constraintsAffectingLayoutForAxis:(UILayoutConstraintAxis)1]
+<__NSArrayI_Transfer 0x120001900>(
+<NSAutoresizingMaskLayoutConstraint:0x12210e580 h=--& v=--& RNSScreenContentWrapper:0x10859f600.minY == 0   (active, names: '|':RNSScreenView:0x104de5800 )>,
+<NSAutoresizingMaskLayoutConstraint:0x12210e5d0 h=--& v=--& RNSScreenContentWrapper:0x10859f600.height == 840   (active)>
+)

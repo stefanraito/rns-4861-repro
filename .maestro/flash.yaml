@@ -1,0 +1,33 @@
+appId: com.example.rns4861
+---
+# Headerless step4, briefly show its native header (setOptions), then tap the bottom button.
+- extendedWaitUntil:
+    visible:
+      id: 'tab-profile'
+    timeout: 20000
+- tapOn:
+    id: 'tab-profile'
+- tapOn:
+    id: 'open-settings'
+- tapOn:
+    id: 'replace-to-onboarding'
+- tapOn:
+    id: 'step1-continue'
+- tapOn:
+    id: 'step2-continue'
+- tapOn:
+    id: 'step3-continue'
+- extendedWaitUntil:
+    visible:
+      id: 'bottom-button'
+    timeout: 10000
+- waitForAnimationToEnd
+- tapOn:
+    id: '${BTN}'
+- waitForAnimationToEnd
+- tapOn:
+    id: 'top-button'
+- assertVisible: 'top-taps-1'
+- tapOn:
+    id: 'bottom-button'
+- assertVisible: 'bottom-taps-1'

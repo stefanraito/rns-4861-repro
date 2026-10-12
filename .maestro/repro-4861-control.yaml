@@ -1,0 +1,21 @@
+appId: com.example.rns4861
+---
+# Control for repro-4861.yaml: same heavy mount, header never shown. Passes on RNS 4.16.0.
+- launchApp:
+    stopApp: true
+- tapOn:
+    id: 'open-repro'
+- extendedWaitUntil:
+    visible:
+      id: 'repro-flash-header'
+    timeout: 10000
+- waitForAnimationToEnd
+- tapOn:
+    id: 'repro-control'
+- waitForAnimationToEnd
+- tapOn:
+    id: 'repro-top-button'
+- assertVisible: 'top-taps-1'
+- tapOn:
+    id: 'repro-bottom-button'
+- assertVisible: 'bottom-taps-1'

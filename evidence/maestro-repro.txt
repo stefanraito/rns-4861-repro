@@ -1,0 +1,25 @@
+Running on RNS4861 iPhone 17 Pro Max - iOS 26.5 - D2383579-7999-4EE1-8FB8-88CDD2FE4018
+ > Flow repro-4861
+Launch app "com.example.rns4861"... COMPLETED
+Tap on id: open-repro... COMPLETED
+Assert that id: repro-flash-header is visible... COMPLETED
+Wait for animation to end... COMPLETED
+Tap on id: repro-flash-header... COMPLETED
+Wait for animation to end... COMPLETED
+Tap on id: repro-top-button... COMPLETED
+Assert that "top-taps-1" is visible... COMPLETED
+Tap on id: repro-bottom-button... COMPLETED
+Assert that "bottom-taps-1" is visible... FAILED
+
+Assertion is false: "bottom-taps-1" is visible
+
+Assertion '"bottom-taps-1" is visible' failed. Check the UI hierarchy in debug artifacts to verify the element state and properties.
+
+Possible causes:
+- Element selector may be incorrect - check if there are similar elements with slightly different names/properties.
+- Element may be temporarily unavailable due to loading state
+- This could be a real regression that needs to be addressed
+
+==== Debug output (logs & screenshots) ====
+
+~/.maestro/tests/2026-10-12_174608

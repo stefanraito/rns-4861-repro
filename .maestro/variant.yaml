@@ -1,0 +1,70 @@
+appId: com.example.rns4861
+---
+# Same shape as sequence.yaml, but first sets experiment flags through the control link.
+- extendedWaitUntil:
+    visible:
+      id: 'tab-profile'
+    timeout: 20000
+- openLink: 'rns4861://control?${FLAGS}'
+- extendedWaitUntil:
+    visible:
+      id: 'home-screen'
+    timeout: 10000
+- runFlow: visit-settings.yaml
+- runFlow: visit-settings.yaml
+- openLink: 'rns4861://control'
+- extendedWaitUntil:
+    visible:
+      id: 'home-screen'
+    timeout: 10000
+- tapOn:
+    id: 'tab-profile'
+- extendedWaitUntil:
+    visible:
+      id: 'open-settings'
+    timeout: 10000
+- tapOn:
+    id: 'open-settings'
+- extendedWaitUntil:
+    visible:
+      id: 'replace-to-onboarding'
+    timeout: 10000
+- tapOn:
+    id: 'replace-to-onboarding'
+- waitForAnimationToEnd
+- runFlow:
+    when:
+      visible:
+        id: 'confirm-replace'
+    commands:
+      - tapOn:
+          id: 'confirm-replace'
+- extendedWaitUntil:
+    visible:
+      id: 'step1-continue'
+    timeout: 10000
+- tapOn:
+    id: 'step1-continue'
+- extendedWaitUntil:
+    visible:
+      id: 'step2-continue'
+    timeout: 10000
+- tapOn:
+    id: 'step2-continue'
+- extendedWaitUntil:
+    visible:
+      id: 'step3-continue'
+    timeout: 10000
+- tapOn:
+    id: 'step3-continue'
+- extendedWaitUntil:
+    visible:
+      id: 'bottom-button'
+    timeout: 10000
+- waitForAnimationToEnd
+- tapOn:
+    id: 'top-button'
+- assertVisible: 'top-taps-1'
+- tapOn:
+    id: 'bottom-button'
+- assertVisible: 'bottom-taps-1'

@@ -1,0 +1,5 @@
+appId: com.example.rns4861
+---
+- launchApp:
+    clearState: true
+- runFlow: sequence.yaml

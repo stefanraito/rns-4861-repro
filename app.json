@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "RNS4861",
+    "slug": "rns-4861-repro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "rns4861",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "ios": {
+      "bundleIdentifier": "com.example.rns4861",
+      "supportsTablet": false
+    },
+    "plugins": ["expo-router"]
+  }
+}

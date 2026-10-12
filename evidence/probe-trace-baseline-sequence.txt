@@ -1,0 +1,208 @@
+init {'out': '/tmp/probe-base.txt', 'W': 4303343056, 'C': 4303344136, 'SV': 4303342616, 'lm_off': 408, 'sac_off': 768, 'sv_off': 864, 'show_off': 849, 'transl_off': 856}
+L W1073f8300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1073f8300(tag 126) mount W1073f8300(tag 126) tamic=1 
+C10320e400(tag 136) updateProps screenView=0 super=0 show=1 
+M SV10320e400(tag 136) mount C10320e400(tag 136) cfg.screenView(before)=0
+L W1033e3c00 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1033e3c00(tag 146) mount W1033e3c00(tag 146) tamic=1 
+C10320dc00(tag 148) updateProps screenView=0 super=0 show=1 
+M SV10320dc00(tag 148) mount C10320dc00(tag 148) cfg.screenView(before)=0
+U updateVC vc=103211400 view=SV1031f1800(tag 150) nav=1031f0000 sub0=W1033e3c00 cfg=C10320dc00(tag 148) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1033e3c00 setTAMIC(1) before: W1033e3c00(tag 146) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f1800(tag 150,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+U updateVC vc=103211900 view=SV1031f2a00(tag 138) nav=1031f2400 sub0=W1073f8300 cfg=C10320e400(tag 136) show=1 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[RNSScreenStackView reactAddControllerToClosestParent:]
+W1073f8300 setTAMIC(0) before: W1073f8300(tag 126) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 138,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+U updateVC vc=103211900 view=SV1031f2a00(tag 138) nav=1031f2400 sub0=W1073f8300 cfg=C10320e400(tag 136) show=1 transl=0 sac=1063c9f50 first=1073f8300  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:retargetedToViewControllerForTransitionFromVi
+W1073f8300 setTAMIC(0) before: W1073f8300(tag 126) tamic=0 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 138,h 840) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1073f8300 engine apply (boundsOnly=0)  before: W1073f8300(tag 126) tamic=0 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 138,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1033e3c00 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+L W1073f8300 layoutMetrics new=(0 0; 440 840) old=(0 0; 440 956)
+E W1073f8300 engine apply (boundsOnly=0)  before: W1073f8300(tag 126) tamic=0 h=840 cache=(0 0; 440 840) super=SV1031f2a00(tag 138,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1033e3c00 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+L W1073faa00 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1073faa00(tag 168) mount W1073faa00(tag 168) tamic=1 
+C10320e000(tag 178) updateProps screenView=0 super=0 show=1 
+M SV10320e000(tag 178) mount C10320e000(tag 178) cfg.screenView(before)=0
+U updateVC vc=103211e00 view=SV1031f3000(tag 180) nav=1031f2400 sub0=W1073faa00 cfg=C10320e000(tag 178) show=1 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1073faa00 setTAMIC(0) before: W1073faa00(tag 168) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3000(tag 180,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1073faa00 engine apply (boundsOnly=0)  before: W1073faa00(tag 168) tamic=0 h=956 cache=(0 0; 440 956) super=SV1031f3000(tag 180,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+E W1073f8300 engine apply (boundsOnly=0)  before: W1073f8300(tag 126) tamic=0 h=840 cache=(0 0; 440 840) super=SV1031f2a00(tag 138,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1073faa00 layoutMetrics new=(0 0; 440 840) old=(0 0; 440 956)
+L W1033e3c00 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+E W1073faa00 engine apply (boundsOnly=0)  before: W1073faa00(tag 168) tamic=0 h=840 cache=(0 0; 440 840) super=SV1031f3000(tag 180,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+E W1073faa00 engine apply (boundsOnly=0)  before: W1073faa00(tag 168) tamic=0 h=840 cache=(0 0; 440 840) super=SV1031f3000(tag 180,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV114630300(tag 192) mount W114630300(tag 192) tamic=1 
+C10320f400(tag 194) updateProps screenView=0 super=0 show=1 
+M SV10320f400(tag 194) mount C10320f400(tag 194) cfg.screenView(before)=0
+L W1033e3c00 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+U updateVC vc=103212300 view=SV1031f3600(tag 196) nav=1031f0000 sub0=W114630300 cfg=C10320f400(tag 194) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W114630300 setTAMIC(1) before: W114630300(tag 192) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3600(tag 196,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+M SV10320e400(tag 136) unmount C10320e400(tag 136)
+C10320e400(tag 136) removeFromSuperview screenView=1031f2a00
+M SV1073f8300(tag 126) unmount W1073f8300(tag 126)
+W1073f8300 prepareForRecycle W1073f8300(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -)
+C10320e400(tag 0) prepareForRecycle screenView=0 super=0 sac=1063c9f50 first=1073f8300
+W1073f8300 setTAMIC(1) before: W1073f8300(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -) | -[RNSScreenStackHeaderConfig prepareForRecycle] <- -[RCTComponentViewRegistry _enqueueComponentViewWithComponentHandle:componentViewDescripto
+M SV10320e000(tag 178) unmount C10320e000(tag 178)
+C10320e000(tag 178) removeFromSuperview screenView=1031f3000
+M SV1073faa00(tag 168) unmount W1073faa00(tag 168)
+W1073faa00 prepareForRecycle W1073faa00(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -)
+C10320e000(tag 0) prepareForRecycle screenView=0 super=0 sac=1072a6be0 first=1073faa00
+W1073faa00 setTAMIC(1) before: W1073faa00(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -) | -[RNSScreenStackHeaderConfig prepareForRecycle] <- -[RCTComponentViewRegistry _enqueueComponentViewWithComponentHandle:componentViewDescripto
+M SV10320dc00(tag 148) unmount C10320dc00(tag 148)
+C10320dc00(tag 148) removeFromSuperview screenView=1031f1800
+M SV1033e3c00(tag 146) unmount W1033e3c00(tag 146)
+W1033e3c00 prepareForRecycle W1033e3c00(tag 0) tamic=1 h=956 cache=(0 0; 440 956) super=?0(tag 0,h -)
+C10320dc00(tag 0) prepareForRecycle screenView=0 super=0 sac=0 first=0
+M SV10320f400(tag 194) unmount C10320f400(tag 194)
+C10320f400(tag 194) removeFromSuperview screenView=1031f3600
+M SV114630300(tag 192) unmount W114630300(tag 192)
+W114630300 prepareForRecycle W114630300(tag 0) tamic=1 h=956 cache=(0 0; 440 956) super=?0(tag 0,h -)
+C10320f400(tag 0) prepareForRecycle screenView=0 super=0 sac=0 first=0
+U updateVC vc=103210000 view=SV1031f0600(tag 76) nav=1031f0000 sub0=W1033e0300 cfg=C10320cc00(tag 74) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1033e0300 setTAMIC(1) before: W1033e0300(tag 72) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f0600(tag 76,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+L W1033e3c00 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1033e3c00(tag 222) mount W1033e3c00(tag 222) tamic=1 
+C10320dc00(tag 232) updateProps screenView=0 super=0 show=0 
+M SV10320dc00(tag 232) mount C10320dc00(tag 232) cfg.screenView(before)=0
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV114630300(tag 242) mount W114630300(tag 242) tamic=1 
+C10320f400(tag 0) updateProps screenView=0 super=0 show=0 
+M SV10320f400(tag 244) mount C10320f400(tag 244) cfg.screenView(before)=0
+U updateVC vc=103212300 view=SV1031f3600(tag 246) nav=1031f0000 sub0=W114630300 cfg=C10320f400(tag 244) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W114630300 setTAMIC(1) before: W114630300(tag 242) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3600(tag 246,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+U updateVC vc=103211400 view=SV1031f1800(tag 234) nav=1031f2400 sub0=W1033e3c00 cfg=C10320dc00(tag 232) show=1 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[RNSScreenStackView reactAddControllerToClosestParent:]
+W1033e3c00 setTAMIC(0) before: W1033e3c00(tag 222) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f1800(tag 234,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+U updateVC vc=103211400 view=SV1031f1800(tag 234) nav=1031f2400 sub0=W1033e3c00 cfg=C10320dc00(tag 232) show=1 transl=0 sac=1144766d0 first=1033e3c00  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:retargetedToViewControllerForTransitionFromVi
+W1033e3c00 setTAMIC(0) before: W1033e3c00(tag 222) tamic=0 h=956 cache=(0 0; 440 956) super=SV1031f1800(tag 234,h 840) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1033e3c00 engine apply (boundsOnly=0)  before: W1033e3c00(tag 222) tamic=0 h=956 cache=(0 0; 440 956) super=SV1031f1800(tag 234,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+L W1033e3c00 layoutMetrics new=(0 0; 440 840) old=(0 0; 440 956)
+E W1033e3c00 engine apply (boundsOnly=0)  before: W1033e3c00(tag 222) tamic=0 h=840 cache=(0 0; 440 840) super=SV1031f1800(tag 234,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+L W1073faa00 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1073faa00(tag 264) mount W1073faa00(tag 264) tamic=1 
+C10320e000(tag 274) updateProps screenView=0 super=0 show=1 
+M SV10320e000(tag 274) mount C10320e000(tag 274) cfg.screenView(before)=0
+U updateVC vc=103211e00 view=SV1031f3000(tag 276) nav=1031f2400 sub0=W1073faa00 cfg=C10320e000(tag 274) show=1 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1073faa00 setTAMIC(0) before: W1073faa00(tag 264) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3000(tag 276,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1073faa00 engine apply (boundsOnly=0)  before: W1073faa00(tag 264) tamic=0 h=956 cache=(0 0; 440 956) super=SV1031f3000(tag 276,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+E W1033e3c00 engine apply (boundsOnly=0)  before: W1033e3c00(tag 222) tamic=0 h=840 cache=(0 0; 440 840) super=SV1031f1800(tag 234,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1073faa00 layoutMetrics new=(0 0; 440 840) old=(0 0; 440 956)
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+E W1073faa00 engine apply (boundsOnly=0)  before: W1073faa00(tag 264) tamic=0 h=840 cache=(0 0; 440 840) super=SV1031f3000(tag 276,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+E W1073faa00 engine apply (boundsOnly=0)  before: W1073faa00(tag 264) tamic=0 h=840 cache=(0 0; 440 840) super=SV1031f3000(tag 276,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1073f8300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1073f8300(tag 288) mount W1073f8300(tag 288) tamic=1 
+C10320e400(tag 290) updateProps screenView=0 super=0 show=1 
+M SV10320e400(tag 290) mount C10320e400(tag 290) cfg.screenView(before)=0
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+U updateVC vc=103211900 view=SV1031f2a00(tag 292) nav=1031f0000 sub0=W1073f8300 cfg=C10320e400(tag 290) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1073f8300 setTAMIC(1) before: W1073f8300(tag 288) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 292,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1073f8300 engine apply (boundsOnly=0)  before: W1073f8300(tag 288) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 292,h 956) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+M SV10320dc00(tag 232) unmount C10320dc00(tag 232)
+C10320dc00(tag 232) removeFromSuperview screenView=1031f1800
+M SV1033e3c00(tag 222) unmount W1033e3c00(tag 222)
+W1033e3c00 prepareForRecycle W1033e3c00(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -)
+C10320dc00(tag 0) prepareForRecycle screenView=0 super=0 sac=1144766d0 first=1033e3c00
+W1033e3c00 setTAMIC(1) before: W1033e3c00(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -) | -[RNSScreenStackHeaderConfig prepareForRecycle] <- -[RCTComponentViewRegistry _enqueueComponentViewWithComponentHandle:componentViewDescripto
+M SV10320e000(tag 274) unmount C10320e000(tag 274)
+C10320e000(tag 274) removeFromSuperview screenView=1031f3000
+M SV1073faa00(tag 264) unmount W1073faa00(tag 264)
+W1073faa00 prepareForRecycle W1073faa00(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -)
+C10320e000(tag 0) prepareForRecycle screenView=0 super=0 sac=114475680 first=1073faa00
+W1073faa00 setTAMIC(1) before: W1073faa00(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -) | -[RNSScreenStackHeaderConfig prepareForRecycle] <- -[RCTComponentViewRegistry _enqueueComponentViewWithComponentHandle:componentViewDescripto
+M SV10320f400(tag 244) unmount C10320f400(tag 244)
+C10320f400(tag 244) removeFromSuperview screenView=1031f3600
+M SV114630300(tag 242) unmount W114630300(tag 242)
+W114630300 prepareForRecycle W114630300(tag 0) tamic=1 h=956 cache=(0 0; 440 956) super=?0(tag 0,h -)
+C10320f400(tag 0) prepareForRecycle screenView=0 super=0 sac=0 first=0
+M SV10320e400(tag 290) unmount C10320e400(tag 290)
+C10320e400(tag 290) removeFromSuperview screenView=1031f2a00
+M SV1073f8300(tag 288) unmount W1073f8300(tag 288)
+W1073f8300 prepareForRecycle W1073f8300(tag 0) tamic=1 h=956 cache=(0 0; 440 956) super=?0(tag 0,h -)
+C10320e400(tag 0) prepareForRecycle screenView=0 super=0 sac=0 first=0
+U updateVC vc=103210000 view=SV1031f0600(tag 76) nav=1031f0000 sub0=W1033e0300 cfg=C10320cc00(tag 74) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1033e0300 setTAMIC(1) before: W1033e0300(tag 72) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f0600(tag 76,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+L W1073f8300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1073f8300(tag 304) mount W1073f8300(tag 304) tamic=1 
+C10320e400(tag 306) updateProps screenView=0 super=0 show=0 
+M SV10320e400(tag 306) mount C10320e400(tag 306) cfg.screenView(before)=0
+U updateVC vc=103211900 view=SV1031f2a00(tag 308) nav=1031f0000 sub0=W1073f8300 cfg=C10320e400(tag 306) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1073f8300 setTAMIC(1) before: W1073f8300(tag 304) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 308,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1073f8300 engine apply (boundsOnly=0)  before: W1073f8300(tag 304) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 308,h 956) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+M SV10320e400(tag 306) unmount C10320e400(tag 306)
+C10320e400(tag 306) removeFromSuperview screenView=1031f2a00
+M SV1073f8300(tag 304) unmount W1073f8300(tag 304)
+W1073f8300 prepareForRecycle W1073f8300(tag 0) tamic=1 h=956 cache=(0 0; 440 956) super=?0(tag 0,h -)
+C10320e400(tag 0) prepareForRecycle screenView=0 super=0 sac=0 first=0
+U updateVC vc=103210000 view=SV1031f0600(tag 76) nav=1031f0000 sub0=W1033e0300 cfg=C10320cc00(tag 74) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1033e0300 setTAMIC(1) before: W1033e0300(tag 72) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f0600(tag 76,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV114630300(tag 334) mount W114630300(tag 334) tamic=1 
+C10320f400(tag 344) updateProps screenView=0 super=0 show=0 
+M SV10320f400(tag 344) mount C10320f400(tag 344) cfg.screenView(before)=0
+L W1073f8300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1073f8300(tag 354) mount W1073f8300(tag 354) tamic=1 
+C10320e400(tag 356) updateProps screenView=0 super=0 show=0 
+M SV10320e400(tag 356) mount C10320e400(tag 356) cfg.screenView(before)=0
+U updateVC vc=103211900 view=SV1031f2a00(tag 358) nav=1031f0000 sub0=W1073f8300 cfg=C10320e400(tag 356) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1073f8300 setTAMIC(1) before: W1073f8300(tag 354) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 358,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+U updateVC vc=103212300 view=SV1031f3600(tag 346) nav=1031f2400 sub0=W114630300 cfg=C10320f400(tag 344) show=1 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[RNSScreenStackView reactAddControllerToClosestParent:]
+W114630300 setTAMIC(0) before: W114630300(tag 334) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3600(tag 346,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1073f8300 engine apply (boundsOnly=0)  before: W1073f8300(tag 354) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 358,h 956) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+U updateVC vc=103212300 view=SV1031f3600(tag 346) nav=1031f2400 sub0=W114630300 cfg=C10320f400(tag 344) show=1 transl=0 sac=114474720 first=114630300  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:retargetedToViewControllerForTransitionFromVi
+W114630300 setTAMIC(0) before: W114630300(tag 334) tamic=0 h=956 cache=(0 0; 440 956) super=SV1031f3600(tag 346,h 840) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W114630300 engine apply (boundsOnly=0)  before: W114630300(tag 334) tamic=0 h=956 cache=(0 0; 440 956) super=SV1031f3600(tag 346,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1073f8300 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+E W114630300 engine apply (boundsOnly=0)  before: W114630300(tag 334) tamic=0 h=840 cache=(0 0; 440 956) super=SV1031f3600(tag 346,h 840) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1073f8300 layoutMetrics new=(0 0; 440 956) old=(0 0; 440 956)
+L W114630300 layoutMetrics new=(0 0; 440 840) old=(0 0; 440 956)
+M SV10320f400(tag 344) unmount C10320f400(tag 344)
+C10320f400(tag 344) removeFromSuperview screenView=1031f3600
+M SV114630300(tag 334) unmount W114630300(tag 334)
+W114630300 prepareForRecycle W114630300(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -)
+C10320f400(tag 0) prepareForRecycle screenView=0 super=0 sac=114474720 first=114630300
+W114630300 setTAMIC(1) before: W114630300(tag 0) tamic=0 h=840 cache=(0 0; 440 840) super=?0(tag 0,h -) | -[RNSScreenStackHeaderConfig prepareForRecycle] <- -[RCTComponentViewRegistry _enqueueComponentViewWithComponentHandle:componentViewDescripto
+M SV10320e400(tag 356) unmount C10320e400(tag 356)
+C10320e400(tag 356) removeFromSuperview screenView=1031f2a00
+M SV1073f8300(tag 354) unmount W1073f8300(tag 354)
+W1073f8300 prepareForRecycle W1073f8300(tag 0) tamic=1 h=956 cache=(0 0; 440 956) super=?0(tag 0,h -)
+C10320e400(tag 0) prepareForRecycle screenView=0 super=0 sac=0 first=0
+L W114630300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV114630300(tag 376) mount W114630300(tag 376) tamic=1 
+C10320f400(tag 378) updateProps screenView=0 super=0 show=1 
+M SV10320f400(tag 378) mount C10320f400(tag 378) cfg.screenView(before)=0
+L W1073f8300 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1073f8300(tag 386) mount W1073f8300(tag 386) tamic=1 
+C10320e400(tag 388) updateProps screenView=0 super=0 show=0 
+M SV10320e400(tag 388) mount C10320e400(tag 388) cfg.screenView(before)=0
+U updateVC vc=103211e00 view=SV1031f1800(tag 390) nav=1031f0000 sub0=W1073f8300 cfg=C10320e400(tag 388) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1073f8300 setTAMIC(1) before: W1073f8300(tag 386) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f1800(tag 390,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+U updateVC vc=103211400 view=SV1031f3000(tag 380) nav=1031f2400 sub0=W114630300 cfg=C10320f400(tag 378) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[RNSScreenStackView reactAddControllerToClosestParent:]
+W114630300 setTAMIC(1) before: W114630300(tag 376) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3000(tag 380,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1073f8300 engine apply (boundsOnly=0)  before: W1073f8300(tag 386) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f1800(tag 390,h 956) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+U updateVC vc=103211400 view=SV1031f3000(tag 380) nav=1031f2400 sub0=W114630300 cfg=C10320f400(tag 378) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:retargetedToViewControllerForTransitionFromVi
+W114630300 setTAMIC(1) before: W114630300(tag 376) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3000(tag 380,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W114630300 engine apply (boundsOnly=0)  before: W114630300(tag 376) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3000(tag 380,h 956) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1073faa00 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1073faa00(tag 408) mount W1073faa00(tag 408) tamic=1 
+C10320e000(tag 410) updateProps screenView=0 super=0 show=1 
+M SV10320e000(tag 410) mount C10320e000(tag 410) cfg.screenView(before)=0
+U updateVC vc=103211900 view=SV1031f2a00(tag 412) nav=1031f2400 sub0=W1073faa00 cfg=C10320e000(tag 410) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1073faa00 setTAMIC(1) before: W1073faa00(tag 408) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 412,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1073faa00 engine apply (boundsOnly=0)  before: W1073faa00(tag 408) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f2a00(tag 412,h 956) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W1033e3c00 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV1033e3c00(tag 430) mount W1033e3c00(tag 430) tamic=1 
+C10320dc00(tag 432) updateProps screenView=0 super=0 show=1 
+M SV10320dc00(tag 432) mount C10320dc00(tag 432) cfg.screenView(before)=0
+U updateVC vc=103212300 view=SV1031f3600(tag 434) nav=1031f2400 sub0=W1033e3c00 cfg=C10320dc00(tag 432) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W1033e3c00 setTAMIC(1) before: W1033e3c00(tag 430) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3600(tag 434,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]
+E W1033e3c00 engine apply (boundsOnly=0)  before: W1033e3c00(tag 430) tamic=1 h=956 cache=(0 0; 440 956) super=SV1031f3600(tag 434,h 956) | -[UIView(Geometry) _resizeWithOldSuperviewSize:] <- __NSARRAY_IS_CALLING_OUT_TO_A_BLOCK__ <- -[__NSArrayM enumerateObjectsWithOptions:usingBlock:]
+L W114630f00 layoutMetrics new=(0 0; 440 956) old=(0 0; -1 -1)
+M SV114630f00(tag 468) mount W114630f00(tag 468) tamic=1 
+C10320fc00(tag 470) updateProps screenView=0 super=0 show=1 
+M SV10320fc00(tag 470) mount C10320fc00(tag 470) cfg.screenView(before)=0
+U updateVC vc=103212800 view=SV1145c4000(tag 472) nav=1031f2400 sub0=W114630f00 cfg=C10320fc00(tag 470) show=0 transl=0 sac=0 first=0  | +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:] <- -[RNSScreenStackView navigationController:willShowViewController:animated:] <- -[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]
+W114630f00 setTAMIC(1) before: W114630f00(tag 468) tamic=1 h=956 cache=(0 0; 440 956) super=SV1145c4000(tag 472,h 956) | +[RNSScreenStackHeaderConfig updateViewController:withConfig:animated:] <- +[RNSScreenStackHeaderConfig willShowViewController:animated:withConfig:]

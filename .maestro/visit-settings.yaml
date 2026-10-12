@@ -1,0 +1,26 @@
+appId: com.example.rns4861
+---
+# Tabs -> push two header screens -> deep-link control route that dismissTo('/(tabs)').
+- tapOn:
+    id: 'tab-profile'
+- extendedWaitUntil:
+    visible:
+      id: 'open-settings'
+    timeout: 10000
+- tapOn:
+    id: 'open-settings'
+- extendedWaitUntil:
+    visible:
+      id: 'open-settings-second'
+    timeout: 10000
+- tapOn:
+    id: 'open-settings-second'
+- extendedWaitUntil:
+    visible:
+      id: 'replace-to-onboarding-2'
+    timeout: 10000
+- openLink: 'rns4861://control'
+- extendedWaitUntil:
+    visible:
+      id: 'home-screen'
+    timeout: 10000

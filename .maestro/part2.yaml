@@ -1,0 +1,27 @@
+appId: com.example.rns4861
+---
+- tapOn:
+    id: 'step1-continue'
+- extendedWaitUntil:
+    visible:
+      id: 'step2-continue'
+    timeout: 10000
+- tapOn:
+    id: 'step2-continue'
+- extendedWaitUntil:
+    visible:
+      id: 'step3-continue'
+    timeout: 10000
+- tapOn:
+    id: 'step3-continue'
+- extendedWaitUntil:
+    visible:
+      id: 'bottom-button'
+    timeout: 10000
+- waitForAnimationToEnd
+- tapOn:
+    id: 'top-button'
+- assertVisible: 'top-taps-1'
+- tapOn:
+    id: 'bottom-button'
+- assertVisible: 'bottom-taps-1'

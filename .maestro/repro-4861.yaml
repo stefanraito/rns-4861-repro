@@ -1,0 +1,22 @@
+appId: com.example.rns4861
+---
+# react-native-screens#4861. Expected: both counters reach 1. Actual on RNS 4.16.0 / iOS 26:
+# bottom-taps stays 0 because the screen's RNSScreenContentWrapper is stuck 116 pt short.
+- launchApp:
+    stopApp: true
+- tapOn:
+    id: 'open-repro'
+- extendedWaitUntil:
+    visible:
+      id: 'repro-flash-header'
+    timeout: 10000
+- waitForAnimationToEnd
+- tapOn:
+    id: 'repro-flash-header'
+- waitForAnimationToEnd
+- tapOn:
+    id: 'repro-top-button'
+- assertVisible: 'top-taps-1'
+- tapOn:
+    id: 'repro-bottom-button'
+- assertVisible: 'bottom-taps-1'
